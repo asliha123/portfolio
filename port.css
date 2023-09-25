@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,700&family=Lato:wght@300&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    
+    
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* 1vh=1% */
+    background-color: white;
+    
+    
+    
+    
+
+}
+nav{
+    display: flex;
+    width: 90%;
+     margin-left: 100px;
+     align-items: center;
+     justify-content: space-between;
+     background-color: darkseagreen;
+     
+}
+nav .logo{
+    width: 100px;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.title{
+    margin-left: 20%;
+    margin-top: 15%;
+    font-size: 25px;
+
+}
+.title a{
+    background-color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.images img{
+    
+    height:45%;
+    position: absolute;
+    right: 300px;
+    bottom: 0px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border-radius: 100%;
+    
+}
+#about{
+    margin-top: 30px;
+   background-color: darkseagreen;
+   margin-bottom: 50px;
+   
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 40px;
+}
+.heading span{
+    font-size: 30px;
+    color: black;
+}
+.about-img img{
+    width: 60%;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 80px;
+    font-size: 20px;}
+
+    .about-text{
+        font-size: 18px;
+        font-weight: 500;
+        text-align: justify;
+        margin-right: 20px;
+        
+    }
+.information{
+    margin: 1rem 0 1.4rem;
+}
+.information .info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.information .info-box span{
+    font-weight: 500;
+    margin-left: 15px;}
+
+#skills{
+    margin-top: 5%;
+    background-color: darkseagreen;
+    margin-bottom: 10%;
+
+    
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: darkseagreen;
+    
+}
+.container .progress{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+}
+.container .progress h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2em;
+    z-index: 1;
+    font-weight: 300;
+}
+.container .progress h3 span{
+    font-size: 0.65em;
+    font-weight: 400;
+}
+.container .progress h4{
+    position: absolute;
+    top: 62%;
+    left:35%;
+    color: var(--clr);
+    text-transform: uppercase;
+}
+.container .progress::before{
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+.container .progress::after{
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+
+    
+    
+   
+    .education-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 80px;
+        font-size: 20px;}
+
+        .education-img img{
+            width: 60%;
+            border-radius: 8px;
+            margin-top: 50px;
+            margin-left: 60px;
+            margin-bottom: 40px;
+        }
+            #education{
+                margin-top: 20px;
+                background-color: darkseagreen;
+            }
+            
+            .education-content ul,li {
+                list-style-position: outside;
+                margin-bottom: 20px;
+                margin: 20px 20px;
+                margin-right: 50px;
+                margin-top: 30px;
+                font-size: 18px;
+            }
+            #contact{
+                margin-left: ;
+                margin-top: 20%;
+                margin-right: ;
+                
+                margin-bottom: 5%;
+            
+            }
+            .iconDiv{
+                margin-top: 5%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .icon{
+                width: 50px;
+                height: 50px;
+                border: 2px solid;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 10px;
+                background-color: bisque;
+                margin-bottom: 10%;
+            }
+            .icon i{
+                   font-size: 20px;
+            
+            }
+            .icon i:hover{
+                color: black;
+            } 
+            footer{
+                margin-top: 2rem;
+                font-weight: bolder;
+            }
+            
+            
+            
+            
+            
+            
