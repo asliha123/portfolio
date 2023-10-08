@@ -218,7 +218,59 @@ nav ul li a:hover{
     
         body{
             background-color: lightsteelblue;
-        }    
+        }  
+        @media(max-width:600px){
+            nav{
+                margin-left: 20px;
+                
+                
+            }
+            nav ul li{
+                font-size: 15px;
+                text-align: center;
+            }
+             
+             .about-img img{
+                width: 90%;
+                 margin-top: 90px;
+                 align-items: center;
+                 margin-left: 10px;
+                
+                
+                
+             }   
+             
+             .about-text{
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+             } 
+            .information .info-box{
+                text-align: center;
+                justify-content: center;
+            }
+            .education-img img{
+                
+                width: 100%;
+                margin-top: 90px;
+                align-items: center;
+                justify-content: center;
+                margin-left: 10px;
+                
+               
+            }
+            .skill-image img{
+                align-items: center;
+                width: 80%;
+            }
+            .education-content{
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+            
+        }  
+            
             
             
             
